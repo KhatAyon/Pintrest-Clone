@@ -34,7 +34,7 @@ class _HomeState extends State<Home> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.white,
+        backgroundColor: Colors.black,
         title:  Row(
           children: [
             Container(
@@ -44,12 +44,12 @@ class _HomeState extends State<Home> {
                     child: Text('All',
                         style: TextStyle(
                           fontSize: 20,
-                          color: Colors.white,
+                          color: Colors.black,
                         )),
                   ),
                   decoration: const BoxDecoration(
                     borderRadius: BorderRadius.all(Radius.circular(30)),
-                   color: Colors.black,
+                   color: Colors.white,
                   )
                   ),
                   Container(
